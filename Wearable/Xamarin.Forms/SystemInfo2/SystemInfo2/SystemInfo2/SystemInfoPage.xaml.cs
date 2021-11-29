@@ -15,13 +15,15 @@
 using Xamarin.Forms.Xaml;
 using Tizen.Wearable.CircularUI.Forms;
 using SystemInfo.InfoPages;
+using Xamarin.Forms;
+
 namespace SystemInfo
 {
     /// <summary>
     /// SystemInfoPage partial class
     /// </summary>
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SystemInfoPage : IndexPage
+	public partial class SystemInfoPage : CarouselPage
     {
 
         public SystemInfoPage()

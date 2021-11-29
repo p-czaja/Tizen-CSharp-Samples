@@ -27,7 +27,7 @@ namespace SystemInfo.InfoPages
     /// SettingsPage partial class
     /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SettingsPage : CirclePage
+    public partial class SettingsPage : ContentPage
     {
         public SettingsPage()
         {

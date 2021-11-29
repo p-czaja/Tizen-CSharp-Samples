@@ -21,7 +21,7 @@ namespace SystemInfo.InfoPages
     /// CapabilitiesPage partial class
     /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CapabilitiesPage : CirclePage
+    public partial class CapabilitiesPage : Xamarin.Forms.ContentPage
     {
         public CapabilitiesPage()
         {
